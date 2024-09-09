@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { StepsService } from '../steps.service';
+
 
 @Component({
   selector: 'app-escena',
@@ -8,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './escena.component.css'
 })
 export class EscenaComponent {
-
+  constructor ( public mesaggeText: StepsService){}
 }
