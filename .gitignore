@@ -49,3 +49,5 @@ tsconfig.spec.json
 .vscode/tasks.json
 tsconfig.app.json
 tsconfig.json
+.editorconfig
+
