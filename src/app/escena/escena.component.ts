@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { StepsService } from '../steps.service';
+import { IStep } from '../i-step';
+
+
 
 
 @Component({
@@ -9,6 +12,6 @@ import { StepsService } from '../steps.service';
   templateUrl: './escena.component.html',
   styleUrl: './escena.component.css'
 })
-export class EscenaComponent {
-  constructor ( public mesaggeText: StepsService){}
+export class EscenaComponent { 
+@Input() steps:IStep[]=[];
 }

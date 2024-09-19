@@ -1,0 +1,14 @@
+.card{
+    width: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top{
+    background-color: rgb(1, 131, 125);
+    width: 300px;
+    height: 390px;
+    
+}

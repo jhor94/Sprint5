@@ -1,4 +1,15 @@
-<h3>{{ mesaggeText.step.title }}</h3>
-
-<p>{{mesaggeText.step.description}}</p>
+<div class="row align-items-center">
+@for(step of steps; track step.title){
+    <div class="align-items-center col">
+        <div id="card-property" class="card m-3 row align-items-center">
+            <img [src]="step.img" class="card-img-top" alt="{{step.title}}">
+            <div class="card-body">
+                <h3 class="card-title">{{step.title}}</h3>
+                <p class="card-text">{{step.description}}</p>
+                <br><br>
+            </div>
+        </div>
+    </div>
+}
+</div>
 
