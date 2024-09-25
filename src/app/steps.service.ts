@@ -15,13 +15,13 @@ export class StepsService {
      title: "Programa projectes propis:",
      description: "Més val 10 hores treballant en projectes propis, que 10 hores mirant tutorials. La motivació i la implicació en el projecte ajudarà a accelerar el teu aprenentatge.",
      img:"/img/programming.svg",
-     bgcolor: "#FFDF00", 
+     bgcolor: "#A0A0A0", 
    },
    {
     title: "Procura descansar:",
     description: "Descansar bé i desconnectar són vitals. D'aquesta manera reduiràs l'estrès i l'ansietat. Milloraràs la teva concentració i consolidaràs el teu aprenentatge.",
     img:"/img/meditation.svg",
-    bgcolor: "#A0A0A0",
+    bgcolor: "#FFDF00",
    }]
 
   constructor() { }
