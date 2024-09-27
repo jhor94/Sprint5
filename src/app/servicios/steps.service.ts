@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IStep } from './i-step';
+import { IStep } from '../interficies/i-step';
 
 @Injectable({
   providedIn: 'root'

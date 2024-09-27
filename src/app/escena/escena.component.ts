@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IStep } from '../i-step';
+import { IStep } from '../interficies/i-step';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
@@ -19,11 +19,8 @@ import { trigger, transition,  style, animate } from '@angular/animations';
   trigger('transicion', [
     transition(':enter', [
       style({ opacity: 0, transform: 'scale(0.99)' }),
-      animate('50ms ease-out', style({ opacity: 1, transform: 'scale(1)' }))
+      animate('2000ms ease-out', style({ opacity: 1, transform: 'scale(1)' }))
     ]),
-    transition(':leave', [
-      animate('50ms ease-in', style({ opacity: 0, transform: 'scale(0.95)' }))
-    ])
   ])
 ]
 })

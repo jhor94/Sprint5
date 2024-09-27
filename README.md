@@ -1,27 +1,41 @@
-# OnBoarding
+## Proyecto de Iniciación en Angular
+Este proyecto está orientado a la creación de una aplicación básica usando Angular, donde se exploran conceptos fundamentales como componentes, servicios, interfaces y su interacción dentro de la arquitectura Angular. Es ideal para quienes desean dar sus primeros pasos en el desarrollo front-end con Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+## Descripción del Proyecto
+Este proyecto de iniciación en Angular tiene como objetivo desarrollar una aplicación web sencilla donde se trabaja con la creación de componentes, servicios e interfaces, y se pone en práctica la relación que tienen entre ellos, especialmente:
 
-## Development server
+## La interacción entre servicios y componentes.
+La comunicación entre componentes padre e hijo.
+El enfoque principal es comprender cómo los componentes consumen servicios y cómo se comunican entre sí en una estructura jerárquica.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características Principales
+- Creación de componentes reutilizables.
+- Implementación de servicios para gestionar la lógica de negocio y la obtención de datos.
+- Uso de interfaces para definir modelos de datos.
+- Comunicación entre componentes padre e hijo mediante Input() y Output().
+- Uso de inyección de dependencias para acceder a servicios desde los componentes.
 
-## Code scaffolding
+## Estructura del Proyecto
+La estructura básica del proyecto sigue el esquema de Angular, donde destacan las siguientes carpetas y archivos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+src/
+│
+├── app/
+│   ├── componente/
+│   ├── servicios/
+│   ├── inteficies/
+│   └── app.component.ts
 
-## Build
+components/: Contiene los componentes creados para la aplicación.
+services/: Contiene los servicios que se utilizan para la lógica de negocio y consumo de datos.
+inteficies/: Contiene las interfaces que definen los modelos de datos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologías Utilizadas
+Angular: Framework principal para la construcción de la aplicación.
+HTML, CSS & Bootstrap: Para el diseño y estructura de la interfaz de usuario.
+TypeScript: Lenguaje utilizado para la lógica y estructura del código.
+Visual Studio Code: Editor de código.
+Node.js: Para el entorno de desarrollo y ejecución.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Conclusiones
+Este proyecto te permite explorar los conceptos fundamentales de Angular, como la creación de componentes y servicios, y cómo se relacionan entre sí. La comunicación entre componentes y la inyección de dependencias son aspectos clave que se abordan para entender mejor la arquitectura del framework.
