@@ -1,8 +1,9 @@
+<div class="container-fluid"> 
 <div  id="tarjetas" class="row justify-content-center d-flex">
-    <div class="card-div col-sm-3 col-md-4 col-lg-3 d-flex">
+    <div  class="card-div col-sm-3 col-md-4 col-lg-3 d-flex">
         @for(step of steps; track currentStep; let i = $index){
            @if (currentStep === i) {
-            <div id="card-property" class="card m-2 d-flex flex-column">
+            <div  [@transicion] id="card-property" class="card m-2 d-flex flex-column">
             <img [src]="steps[currentStep].img"  [ngStyle]="{'background-color': steps[currentStep].bgcolor}" class="card-img-top img-fluid" alt="{{steps[currentStep].title}}">
             <div class="card-body flex-grow-1 d-flex flex-column">
                 <h3 class="card-title">{{steps[currentStep].title}}</h3>
@@ -21,4 +22,4 @@
     }
     </div>
 </div>
-
+</div>
